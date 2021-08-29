@@ -37,10 +37,10 @@ return
         
         <>
         <form onSubmit={e => e.preventDefault()}>
-            <label>Agregar tarea</label><br/>
+            <label>Agregar producto</label><br/>
              <input type="text" name="todo" onChange={handleChange}/>
              <input type="text" name="num" onChange={handleChang}/>
-            <button onClick={handleClick}>agregar</button>
+            <button onClick={handleClick}>AGREGAR</button>
             </form>
             
        {
